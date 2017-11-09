@@ -64,7 +64,7 @@ class Demo extends React.Component {
           <Button onClick={this.add}>ADD</Button>
         </div>
         <Tabs
-          hideAdd
+        
           onChange={this.onChange}
           activeKey={this.state.activeKey}
           type="editable-card"
